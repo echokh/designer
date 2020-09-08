@@ -35,7 +35,10 @@ public abstract class Car {
     public final void run() {
         this.start();
         this.engineBoom();
-        this.alarm();
+        if(isAlarm())
+        {
+            this.alarm();
+        }
         this.stop();
     }
 }

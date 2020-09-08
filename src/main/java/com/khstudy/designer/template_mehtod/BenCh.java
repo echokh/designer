@@ -6,12 +6,9 @@ public class BenCh extends Car {
         System.out.println("奔驰启动。。。");
     }
 
-
     @Override
     protected void alarm() {
-        if (isAlarm()) {
             System.out.println("奔驰鸣笛。。。");
-        }
     }
 
     @Override
